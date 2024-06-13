@@ -35,7 +35,7 @@ If the composition is deemed final by the composer, a `Limit` event is also fire
 
 #### Tracking contributions
 
-Composition contributions are determined by the claimed rewards (all token transfers originating from the reward pool).
+Composition contributions are determined by the amount of claimed rewards (all token transfers originating from the reward pool).
 
 In case an NFT is created from the final composition, its ownership can be initialized based on these events.
 
@@ -182,10 +182,9 @@ These are smaller upgrades to the composer contract that require 10% of the tota
 
 Jiggly runs on the BASE network and the following contracts are deployed as part of the ecosystem:
 
- - GLY token: 
- - DAO: 
- - Token Composer: 
- - Music Composer: 
+ - GLY token: 0x7A8Fe8fee5dE707aa64A0Fe5c945F9c664DF11B3
+ - DAO: 0x74ee52e77B4dFe328A029010C0EA32F28F8E4616
+ - Token Composer (Reward pool): 0x0C32122cb8fFB378297d6B560DD7bb100121419e
 
 ## Questions & concerns
 

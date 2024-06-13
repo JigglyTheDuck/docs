@@ -16,7 +16,7 @@ The beta will run for about 2 weeks, during which all key aspects of the contrac
 
 ## Participation
 
-To participate in the beta, send an email to [theduck@jiggly.app](mailto:theduck@jiggly.app) or DM @JigglyTheDuck on Telegram with your Ethereum wallet address.
+To participate in the beta, send an email to [theduck@jiggly.app](mailto:theduck@jiggly.app) or DM [JigglyTheDuck](https://t.me/JigglyTheDuck) on Telegram with your Ethereum wallet address.
 
 1 000 GLY-USD tokens will be sent to this address.
 
