@@ -46,7 +46,7 @@ Here's a screenshot of how it works:
 
 ![Screenshot](https://github.com/JigglyTheDuck/docs/blob/master/screenshot.png)
 
-In this example, if you are aiming to get `tempo` to be the next segment option but it currently only has 164 votes (as opposed to `duty_cycle` which has 953).
+In this example, you are aiming to get `tempo` to be the next segment option but it currently only has 164 votes (as opposed to `duty_cycle` which has 953).
 
 The command `tempo` will only be selected if it has the most votes at the end of the segment.
 
@@ -55,10 +55,13 @@ The command `tempo` will only be selected if it has the most votes at the end of
 To make sure that `tempo` has the most votes you can sell 800 tokens at a registered liquidity pool like this:
 
  1. Check the decimal value of the option: `tempo` is `x.01`
- 2. Click on `Trade` and sell 800.01 tokens.
+ 2. Click on **TRADE** and sell 800.01 tokens.
 
-This will add 800 votes to `tempo` and since 800 + 164 = 964 > 953, `tempo` now will become the leading candidate for the segment.
+This will add 800 votes to `tempo` and since *800 + 164 = 964 > 953*, `tempo` now will become the leading candidate for the segment.
 
-This process is repeated over and over until all 3 channels receive the `end_channel` command, at which point the composition is considered final.
+This process is repeated over and over until all 3 channels receive the `channel_end` command, at which point the composition is considered final.
 
 
+## Reach out
+
+With any questions, concerns, or suggestions, feel free to reach out to the [Reddit community](https://www.reddit.com/r/JigglyTheDuck) or email [theduck@jiggly.app](mailto:theduck@jiggly.app).
