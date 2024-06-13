@@ -77,7 +77,7 @@ Result: 100 votes will be taken from the most popular choice and added to a rand
 
 Jiggly distinguishes 3 different types of trades by composition behaviour and reward fee collection.
 
-![Trade types](https://github.com/JigglyTheDuck/swaptunes/blob/master/docs/trades.svg)
+![Trade types](https://github.com/JigglyTheDuck/docs/blob/master/trades.svg)
 
 #### Meta trades
 
@@ -135,7 +135,7 @@ The token distribution is fully transparent.
 
 The provisional unlocking of the reward pool looks like this:
 
-![Rewards And Fees](https://github.com/JigglyTheDuck/swaptunes/blob/master/docs/fees_rewards.svg)
+![Rewards And Fees](https://github.com/JigglyTheDuck/docs/blob/master/fees_rewards.svg)
 
 The above chart assumes perfect behavior (in each segment, the entire outstanding volume is used for voting, every single trade is voting on the eventual winner and all rewards are claimed), in reality however, the distribution of the reward pool (the equilibrium point) will take place after thousands of segments.
 

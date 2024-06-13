@@ -44,7 +44,7 @@ Traders always vote on the outcome of the next segment and can observe the possi
 
 Here's a screenshot of how it works:
 
-![Screenshot](https://github.com/JigglyTheDuck/swaptunes/blob/master/docs/screenshot.png)
+![Screenshot](https://github.com/JigglyTheDuck/docs/blob/master/screenshot.png)
 
 In this example, if you are aiming to get `tempo` to be the next segment option but it currently only has 164 votes (as opposed to `duty_cycle` which has 953).
 
