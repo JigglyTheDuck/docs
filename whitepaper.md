@@ -4,9 +4,9 @@ _Introducing a unique trade-to-vote system for a collaborative trading experienc
 
 ## Introduction
 
-Jiggly is a standard ERC20 token with a built-in support for a unique trade-to-vote mechanism, powered by Uniswap V2 liquidity pools.
+Jiggly is a standard [ERC20](https://en.wikipedia.org/wiki/Ethereum#ERC-20_tokens) token with a built-in support for a unique trade-to-vote mechanism, powered by Uniswap V2 liquidity pools.
 
-Jiggly is fully on-chain, and its supporting web application does not rely on any third-party service (apart from a customizable web3 RPC endpoint, of course).
+Jiggly is fully on-chain, and its supporting web application does not rely on any specific third-party service.
 
 Voting is done by simply selling the token at registered Uniswap V2 liquidity pools and specifying the decimal value in the trade (or adding liquidity to the pool).
 
@@ -25,11 +25,11 @@ The `applyOption` function should be restricted so that it can be called only fr
 
 ### Segments
 
-Segments are time-limited (initially 30 minutes) and require a certain number of votes to pass. 
+Segments are time-limited (initially 30 minutes) and require a certain number of votes to conclude. 
 
 ### Immortalizing Segments
 
-Each time `applyOption` is called, the segment is considered concluded, and a `Segment` event is fired with the selected option as its parameter.
+Every time a segment is concluded, a `Segment` event is fired with the selected option as its parameter immortalizing the selection on the blockchain.
 
 If the composition is deemed final by the composer, a `Limit` event is also fired to indicate the end of the current composition.
 
@@ -58,7 +58,7 @@ Result: 100 votes will be cast for the 2nd option.
 
 ### Built-in Randomization
 
-There are 2 built-in mechanisms in the contract to make engagement more exciting:
+There are 2 built-in mechanisms in the contract to make engagement more exciting by adding unpredictability:
 
 1. Every non-valid trade (any trade that does not target a valid liquidity pool or specifies an invalid option) removes votes from the most popular choice.
 2. Each segment is initialized with a random set of votes in proportion to the last winning vote.
@@ -93,7 +93,7 @@ Every other trade randomizes the options by the method outlined above.
 
 ## The Reward Pool
 
-At its core, Jiggly is all about rewarding honest participation. Most of the tokens can only be unlocked by participating in compositions and releasing them from the reward pool.
+At its core, Jiggly is all about rewarding honest participation. Most of the tokens (the ones in the reward pool) can only be unlocked as rewards by participating in compositions.
 
 To keep the reward pool filled up to a certain level - and to discourage multiple votes - each transaction comes with a transparent 0.5% fee that goes directly back to the reward pool.
 
@@ -142,7 +142,7 @@ The above chart assumes perfect behavior (in each segment, the entire outstandin
 
 ## DAO - Straight in the Contract
 
-Jiggly is not perfect. It is ready to evolve exactly how the community wants it to evolve. That is why it has a very straightforward voting system that allows token holders to change almost any characteristic of the system. Any change requires ~6% support of the total supply.
+Jiggly is not perfect. It is ready to evolve exactly how the community wants it to evolve. That is why it has a very straightforward voting system that allows token holders to change almost any characteristic of the system. 
 
 ### Proposals for Platform Evolution
 
