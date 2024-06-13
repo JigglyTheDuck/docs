@@ -182,9 +182,9 @@ These are smaller upgrades to the composer contract that require 10% of the tota
 
 Jiggly runs on the BASE network and the following contracts are deployed as part of the ecosystem:
 
- - GLY token: 0x7A8Fe8fee5dE707aa64A0Fe5c945F9c664DF11B3
- - DAO: 0x74ee52e77B4dFe328A029010C0EA32F28F8E4616
- - Token Composer (Reward pool): 0x0C32122cb8fFB378297d6B560DD7bb100121419e
+ - GLY token: 0x8C3EC0965E464733745A15bfeEb2c737D9182916
+ - DAO: 0x19C912c19b6e654Fc8c26c3dF5533E2f3a1Cb405
+ - Token Composer (Reward pool): 0xaf1f45B73C9D92001E15C6f539977cBf02883399
 
 ## Questions & concerns
 
